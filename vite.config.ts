@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/league-dashboard2/',
+  base: '/league-dashboard3/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
